@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import { useState } from "react"
+import Customizer from "./pages/Customizer"
+import Home from "./pages/Home"
+import { Canvas } from "./canvas"
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      
+    <div>
+      <main className="app transition-all ease-in">
+        <Home/>
+        <Canvas/>
+        <Customizer/>
+      </main>
     </div>
   )
 }
