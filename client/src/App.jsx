@@ -2,7 +2,7 @@
 import { useState } from "react"
 import Customizer from "./pages/Customizer"
 import Home from "./pages/Home"
-import { Canvas } from "./canvas"
+import CanvasModal from "./canvas"
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div>
       <main className="app transition-all ease-in">
         <Home/>
-        <Canvas/>
+        <CanvasModal/>
         <Customizer/>
       </main>
     </div>

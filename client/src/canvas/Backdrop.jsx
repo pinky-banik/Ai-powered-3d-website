@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Canvas = () => {
+const Backdrop = () => {
     return (
         <div>
-            Cnavas
+            
         </div>
     );
 };
 
-export default Canvas;
+export default Backdrop;
